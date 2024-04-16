@@ -1,0 +1,131 @@
+html{
+text-align:center;
+margin:0 auto;
+background-color:#1ab3ea;
+background-image: url("azuldefondo.png");
+width: auto;
+}
+
+.cuerpo{
+text-align:center;
+padding-top:1px;
+border-left:2px solid lightblue;
+border-right:2px solid lightblue;
+margin-top:0;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:0;
+background-color:white;
+width: 68%;
+cursor:default;
+font-family:Arial;
+box-shadow: 10px 10px 20px black;
+}
+
+.logodeltitulo{
+width:25%;
+}
+
+.parrafodeencabezado{
+margin-left:20%;
+margin-right:20%;
+}
+
+.botonesprincipales{
+background-color:white;
+border-radius:30%;
+border:1px solid black;
+padding-top:4px;
+padding-bottom:4px;
+padding-left:8px;
+padding-right:8px;
+cursor:default;
+transition-duration:0.3s;
+}
+
+.botonesprincipales:hover{
+cursor:pointer;
+background-color:#1ab3ea;
+color:white;
+transition-duration:0.3s;
+box-shadow: 3px 3px 10px black;
+}
+
+.contenedordebotonesprincipales{
+background-color:lightblue;
+top:0px;
+position:sticky;
+}
+
+#contenedor{
+margin: 0 auto;
+text-align:left;
+width:91%;
+}
+
+.imagenesdelindex{
+clear:both;
+width:25%;
+border-radius:25%;
+box-shadow: 5px 5px 10px black;
+margin-bottom:3px;
+}
+
+.botonverproductos{
+background-color:#1ab3ea;
+border-radius:30%;
+border:1px solid black;
+padding-top:4px;
+padding-bottom:4px;
+padding-left:8px;
+padding-right:8px;
+cursor:default;
+transition-duration:0.3s;
+color:white;
+}
+
+.botonwhatsappflotante{
+border-radius:35%;
+box-shadow: 3px 3px 10px black;
+width:61px;
+position:fixed;
+bottom:16px;
+right:16px;
+transition-duration:0.5s;
+}
+
+.botonwhatsappflotante:hover{
+transition-duration:0.5s;
+filter: saturate(8);
+}
+
+.divoscurodelfinaldelapagina{
+background-color:lightblue;
+padding-top:1px;
+padding-bottom:1px;
+}
+
+/* Pantallas de 800px o inferior */
+
+@media only screen and (max-width: 800px) {
+
+.cuerpo{
+width:100%;
+box-shadow: 0px 0px 0px;
+border:none;
+}
+
+.logodeltitulo{
+width:40%;
+}
+
+.parrafodeencabezado{
+margin-left:10%;
+margin-right:10%;
+}
+
+.imagenesdelindex{
+width:45%;
+}
+
+}
